@@ -14,10 +14,11 @@ $('.button-bar').on('click', '.btn', function(e) {
         //after the data from the AJAX request comes back
         .then(function(response) {
             //saving the image_original_url property
-            // let imageUrl = response.data.image_original_url;
+
             for (i = 0; i < response.data.length; i++) {
                 console.log('responseObject: ' + response);
-                let imageUrl = response.data[i].images.original_still.url;
+                let imageUrl = response.data[i].images.fixed_height_small_still.url;
+                //let imageUrl = response.data[i].images.fixed_height_downsampled.url;
                 //creating an div storing an image tag
                 let animalImage = $('<img>');
                 //setting the dogImage src attribute to imageUrl
