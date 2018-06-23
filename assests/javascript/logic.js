@@ -1,4 +1,4 @@
-let URL = "https://api.giphy.com/v1/gifs/search?api_key=Gpjf3CoZDB0rntj3u0BcEiGQXV7NVh4H&limit=5&q=";
+let URL = "https://api.giphy.com/v1/gifs/search?api_key=Gpjf3CoZDB0rntj3u0BcEiGQXV7NVh4H&limit=10&q=";
 
 let topics = ['Dogs', 'Goats', 'Elephans', 'Rats', 'Horses', 'Monkeys'];
 let rating = '';
